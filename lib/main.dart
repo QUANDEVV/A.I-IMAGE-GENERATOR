@@ -68,6 +68,8 @@ class _ImagesState extends State<Images> {
                 )),
                 const SizedBox(
                   width: 20,
+
+                  
                 ),
                 Obx(() {
                   return _imageController.isLoading.value
