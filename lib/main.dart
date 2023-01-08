@@ -67,7 +67,7 @@ class _ImagesState extends State<Images> {
                   ),
                 )),
                 const SizedBox(
-                  width: 20 ,
+                  width: 20,
 
 
                 ),
