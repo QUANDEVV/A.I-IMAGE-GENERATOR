@@ -1,14 +1,16 @@
 // ignore_for_file: must_be_immutable
 
+
 import 'dart:convert';
 
 import 'package:get/get.dart';
+import 'package:images/api/api.dart';
 import 'package:images/main.dart';
 import 'package:http/http.dart' as http;
 
 class ImageController extends Images {
   var url = Uri.parse('https://api.openai.com/v1/images/generations');
-  var api_token = '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';
+
   final data = ''.obs;
   final isLoading = false.obs;
 
